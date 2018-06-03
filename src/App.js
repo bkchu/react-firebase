@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { firebase } from './fire';
-import logo from './logo.svg';
+import logo from './logo.png';
 import './App.css';
 
 class App extends Component {
@@ -59,7 +59,7 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
+          <h1 className="App-title">Welcome to Firebase</h1>
         </header>
         <form onSubmit={this.onSubmitHandler}>
           <input
